@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pet_management_flutter_app/SplashScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
           scaffoldBackgroundColor: Colors.white),
-    home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    home: SplashScreen(),
     );
   }
 }
